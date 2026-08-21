@@ -1,1 +1,11 @@
 # DOSW_Lab3_DanielSergioYazid
+
+| Question | Answer |
+|---|---|
+| i. What is a Maven Archetype? | A Maven archetype is a project templating toolkit. It provides a consistent way to generate a predefined project structure, standardized configurations, and base code for new projects. |
+| ii. What is the purpose of the `maven-archetype-quickstart` archetype? | It is used to generate the most basic skeleton of a Java project. It sets up the standard Maven directory structure (`src/main/java`, `src/test/java`), a basic `pom.xml`, and a simple `App.java` with a corresponding JUnit test to start coding immediately. |
+| iii. What command can be used to create a project based on a Maven archetype? | `mvn archetype:generate` |
+| iv. What is a `pull request` in GitHub? | A pull request (PR) is a mechanism to notify team members that a feature or fix is ready. It initiates a discussion and code review process for the proposed changes before they are merged into the main repository branch. |
+| v. How do you create a `pull request` in GitHub? | Push a local branch to the remote repository, go to the GitHub repository page, click the "Pull requests" tab, click "New pull request", select the base branch (where changes will go) and the compare branch (your changes), add a title and description, and click "Create pull request". |
+| vi. How do you approve a `pull request` in GitHub? | Go to the specific pull request page, click the "Files changed" tab, click the "Review changes" button in the top right, select the "Approve" option, leave a comment if desired, and click "Submit review". |
+| vii. Include the bibliography, using APA format. | Apache Software Foundation. (n.d.). *Introduction to Archetypes*. Apache Maven. Retrieved August 21, 2026, from https://maven.apache.org/guides/introduction/introduction-to-archetypes.html <br><br> GitHub. (n.d.). *About pull requests*. GitHub Docs. Retrieved August 21, 2026, from https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests |
