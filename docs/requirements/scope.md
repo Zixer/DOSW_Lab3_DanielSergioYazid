@@ -12,7 +12,7 @@ Actualmente, la Escuela no cuenta con un sistema centralizado que permita crear 
 
 ### 3.1 Diagrama
 
-![Diagrama de Contexto](uml/contextdiagramLab3.png)
+![Diagrama de Contexto](../uml/contextdiagramLab3.png)
 
 ### 3.2 Actores
 
