@@ -44,7 +44,7 @@ El sistema de TechCup debe tener:
 | **Precondiciones**           | El organizador debe estar autenticado en TechCup y debe contar con la información necesaria para crear el torneo. |
 | **Actor**                    | Organizador |
 | **Flujo principal**          | 1. El organizador selecciona la opción para crear un torneo.<br>2. El sistema solicita la información del torneo.<br>3. El organizador ingresa el ID, fecha, costo de inscripción y reglas.<br>4. El sistema valida la información ingresada.<br>5. El sistema registra el torneo.<br>6. El sistema confirma la creación del torneo. |
-| **Diagrama de caso de uso**  | ![Crear torneo](../uml/crear-torneo.png) |
+| **Diagrama de caso de uso**  | ![Crear torneo](../uml/caso1.png) |
 | **Poscondiciones**           | El torneo queda registrado en el sistema y disponible para su posterior gestión |
 
 ### 2.2 Requerimiento Funcional 2
@@ -57,7 +57,7 @@ El sistema de TechCup debe tener:
 | **Precondiciones**           | El capitán debe estar autenticado, debe tener un equipo creado y debe existir un torneo activo. |
 | **Actor**                    | Capitán |
 | **Flujo principal**          | 1. El capitán selecciona la opción para realizar el pago de inscripción.<br>2. El sistema muestra la información y el costo de inscripción del torneo activo.<br>3. El capitán selecciona PSE como medio de pago.<br>4. El sistema envía la solicitud de pago a PSE.<br>5. El capitán realiza el proceso de pago.<br>6. PSE informa el resultado de la transacción.<br>7. El sistema registra la información del pago |
-| **Diagrama de caso de uso**  | ![Realizar pago](../uml/realizar-pago.png) |
+| **Diagrama de caso de uso**  | ![Realizar pago](../uml/caso3.png) |
 | **Poscondiciones**           | El resultado del pago queda registrado y asociado al equipo correspondiente |
 
 ### 2.3 Requerimiento Funcional 3
@@ -70,7 +70,7 @@ El sistema de TechCup debe tener:
 | **Precondiciones**           | El organizador debe estar autenticado, debe existir un torneo activo, el equipo debe estar registrado y debe existir un pago asociado a su inscripción. |
 | **Actor**                    | Organizador |
 | **Flujo principal**          | 1. El organizador consulta los equipos pendientes de aprobación.<br>2. El sistema muestra los equipos disponibles.<br>3. El organizador selecciona un equipo.<br>4. El sistema muestra la información del equipo y del pago realizado.<br>5. El organizador verifica el pago.<br>6. El organizador aprueba la inscripción.<br>7. El sistema registra al equipo como inscrito en el torneo activo. |
-| **Diagrama de caso de uso**  | ![Aprobar inscripción](../uml/aprobar-inscripcion.png) |
+| **Diagrama de caso de uso**  | ![Aprobar inscripción](../uml/caso2.png) |
 | **Poscondiciones**           | El equipo queda oficialmente inscrito en el torneo activo. |
 
 ## 3. Preguntas
