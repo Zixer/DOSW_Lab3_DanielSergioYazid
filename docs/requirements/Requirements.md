@@ -46,6 +46,7 @@ El sistema de TechCup debe tener:
 | **Flujo principal**          | 1. El organizador selecciona la opción para crear un torneo.<br>2. El sistema solicita la información del torneo.<br>3. El organizador ingresa el ID, fecha, costo de inscripción y reglas.<br>4. El sistema valida la información ingresada.<br>5. El sistema registra el torneo.<br>6. El sistema confirma la creación del torneo. |
 | **Diagrama de caso de uso**  | ![Crear torneo](../uml/caso1.png) |
 | **Poscondiciones**           | El torneo queda registrado en el sistema y disponible para su posterior gestión |
+| **Enlace a mockup**           | https://www.figma.com/proto/x8RHbRqcMo7ivZ3dBaERf4/Mock-Up-TechCUP?timeline=keyframe&node-id=12-3&p=f&t=BXFTkblyIUsT4LcP-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1 |
 
 ### 2.2 Requerimiento Funcional 2
 
